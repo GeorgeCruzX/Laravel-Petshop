@@ -20,8 +20,8 @@ Sistema de gestão de petshop desenvolvido com Laravel 13, implementando todos o
 
 - **Espécie** (Cão, Gato, etc.)
 - **Raça** (Labrador, Persa, etc.) — pertence a Espécie
-- **Cliente** — dono dos pets
-- **Pet** — pertence a Cliente e Raça
+- **Cliente** — Dono dos pets
+- **Pet** — Pertence a Cliente e Raça
 - **Serviço** (Banho, Tosa, etc.)
 - **Agendamento** — Pet + Serviço + Data/Hora + Status
 
@@ -57,8 +57,13 @@ php artisan serve
 ## Detalhe
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=petshop_db
+
 DB_USERNAME=root
+
 DB_PASSWORD=
